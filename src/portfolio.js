@@ -59,7 +59,7 @@ const about = {
         "JavaScript"
     ],
     photo1Link: "images/Dhivya.png",
-    photo2Link: "images/Dhivya_fixed.png",
+    photo2Link: "images/Dhivya_fixed 2.png",
     photo3Link: "images/Dhivya2_fixed.png"
 }
 
