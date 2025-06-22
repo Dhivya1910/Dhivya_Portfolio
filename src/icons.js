@@ -7,7 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 */
 /* import icons first */
 import {
-    faGithub,
+    faInstagram,
     faLinkedin,
     faMedium,
     faStackOverflow,
@@ -16,7 +16,7 @@ import {
 
 /* add icons to the library */
 library.add(
-    faGithub,
+    faInstagram,
     faLinkedin,
     faMedium,
     faStackOverflow,

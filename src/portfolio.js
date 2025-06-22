@@ -21,10 +21,10 @@ const splashScreen = true // recommended: for best behavior after refresh
 // --- 👋 Greeting Section ---
 const greeting = {
     intro: "Hello 👋, my name is",
-    name: "Maxim Shelepov",
-    message: "I'm a computer science senior with hefty experience in app development. Previously worked as a web developer at my university, where I built tools to support both students and educators. Currently, I'm developing an educational AI tool aimed at redefining how college students interact with AI.",
-    basedLocation: "Raleigh, NC",
-    resumeLink: "https://drive.google.com/file/d/1BEiPuAOCQPWc1RVN5Bn_7KyxhR0HL_bv/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
+    name: "Dhivya Koteswaran",
+    message: "I'm a front-end developer with hands-on experience building responsive web apps using Vue.js, Firebase, and AWS. I’ve worked on climate-tech and accessibility-focused platforms, combining clean UI design with real-time data. With a strong eye for performance and accessibility, I enjoy turning complex ideas into simple, intuitive interfaces that work seamlessly across devices.",
+    basedLocation: "Melbourne, VIC",
+    resumeLink: "https://drive.google.com/file/d/1mNZyOAWCVqyPajfhIg6mHyrun41ooZe0/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -33,8 +33,8 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
-    linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
+    instagram: "https://www.instagram.com/dhivyakoteswaran/",
+    linkedin: "https://www.linkedin.com/in/dhivya-kot19/",
     medium: "https://medium.com/@mimaishel",
     stackoverflow: "",
     xtwitter: "https://twitter.com/mimaishel"
@@ -43,141 +43,177 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Maxim Shelepov and I'm a computer science senior at North Carolina State University. I have a knack for solving problems and creating impactful software solutions. Through personal studies in high school, I built my first every full-stack personal website maximshelepov.com. While in college, I worked as a web developer for my university's IT team, gaining extensive experience in industry-grade software and advanced app development practices.",
-        "Nowadays you can find me doing CS coursework (😅) or developing an app to tackle the next big challenge."
-    ], // Separated items are paragraphs
+        "My name is Dhivya Koteswaran and I recently completed my Master of Information Technology at Monash University in Melbourne. I have a strong passion for front-end development and love building responsive, accessible, and high-performance web applications. During my studies and beyond, I’ve worked on full-stack projects using Vue.js, Firebase, and AWS, including climate-tech (www.coolmelbs.me | Access Code: Coolmelbs!!) and accessibility platforms aimed at real-world social impact. I’ve developed tools that integrate real-time APIs, cloud functions, and clean UI/UX design — some of which achieved 90%+ Lighthouse performance scores.",
+        
+        "At The Salvation Army, I volunteered as a front-end developer — building responsive pages with HTML, CSS, JavaScript, and Bootstrap, improving mobile usability by 40%.",
+        
+        "When I’m not coding, you’ll find me exploring new dev tools, refining UI designs, or looking for opportunities that align with my front-end skillset — especially roles where I can create meaningful, user-centered digital experiences."
+      ],
+       // Separated items are paragraphs
     techStack: [
-        "PHP",
-        "Python",
-        "JavaScript",
+        "Figma" ,
+        "AWS",
         "Vue.js",
-        "MySQL",
-        "Swift"
+        "Python",
+        "React.js",
+        "JavaScript"
     ],
-    photo1Link: "images/portrait1.jpeg",
-    photo2Link: "images/portrait2.jpeg",
-    photo3Link: "images/portrait3.jpeg"
+    photo1Link: "images/Dhivya.png",
+    photo2Link: "images/Dhivya_fixed.png",
+    photo3Link: "images/Dhivya2_fixed.png"
 }
 
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Web Dev Intern",
+        position: "Consumer Consultant",
         company: {
-            name: "WolfTech",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            name: "Commercial Credit Services - Melbourne,VIC",
+            link: "https://www.commercialcredit.com.au/"
         },
-        duration: "Aug 2022 - Aug 2024",
+        duration: "September 2024 - Present",
         bulletPoints: [
-            "Supported the development and maintenance of university web applications over two years, improving user experience and developer efficiency using PHP, Laravel, SQL, Docker, and Vue.js.",
-            "Made 350+ contributions to code repositories, including developing tools for email automation, research discovery, and AI-driven news sharing, which reduced operational time and led to higher user adoption.",
-            "Laid the groundwork for the modernized campus digital signage system and management application which supports 360 digital signs and 50 different organizations on campus."
-        ],
+            "Managed and maintained client data through CRM systems, ensuring real-time accuracy and strong data integrity across platforms.",
+"Boosted operational efficiency to 94.66% by designing actionable dashboards and fine-tuning internal workflows.",
+"Implemented and optimized automated dialer systems, reducing the call drop rate to 3.57%.",
+"Leveraged data-driven strategies to consistently meet SLA targets — 26.67% promise resolution and 30.33% hardship case closure."],
         hashtags: [
-            "Laravel",
-            "PHP",
-            "MySQL",
-            "JS",
-            "Vue.js",
-            "HTML",
-            "Tailwind"
+            "CRM System Administration",
+            "Business Process Optimization",
+            "Customer service",
+            "Communication",
+            "Data Quality & Integrity Assurance",
+            "Tech-Enabled Customer Support Tools"
         ]
     },
     {
-        position: "Math Tutor",
+        position: "Front - End Developer (Volunteer)",
         company: {
-            name: "Mathnasium",
-            link: "https://www.mathnasium.com"
+            name: "The Salvation Army - Melbourne,VIC",
+            link: "https://www.salvationarmy.org.au/locations/victoria/tthb/territorial-headquarters-blackburn/"
         },
-        duration: "Jan 2022 - Aug 2022",
+        duration: "November 2024 - February 2025",
         bulletPoints: [
-            "Provided math tutoring to students from elementary through high school, covering a range of topics from basic algebra to college-level calculus, using personalized teaching strategies.",
-            "Designed and directed individualized learning plans, tailoring math topics evaluation to enhance understanding and improve performance in their school math classes."
-        ],
-        hashtags: [
-            "Calc 1-2",
-            "Algebra 1-3",
-            "Discrete Math",
-            "Statistics"
-        ]
+            "Developed responsive and accessible front-end pages using HTML, CSS, JavaScript, and Bootstrap, significantly improving mobile usability by 40% across key pages.",
+            "Maintained and updated the organization’s WordPress site, ensuring stable performance and uptime for over 10,000 monthly visitors, including blog, events, and resource sections.",
+            "Integrated custom front-end components with internal SharePoint document libraries, reducing average document retrieval time by 30% through improved UX and direct linking.",
+            "Contributed to backend feature enhancements and data handling using C#/.NET and SQL Server, helping maintain internal systems used daily by more than 100 staff members."
+          ]
+          ,
+          hashtags: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "WordPress",
+            "SharePoint",
+            "C#",
+            ".NET",
+            "SQL Server"
+          ]
     }
+,
+    {
+        position: "Store Support Consultant",
+        company: {
+            name: "7-Eleven - Melbourne,VIC",
+            link: "https://www.7eleven.com.au/"
+        },
+        duration: "September 2023 - February 2024",
+        bulletPoints: [
+            "Delivered comprehensive technical support across phone, email, and ServiceNow channels, consistently maintaining a 95% customer satisfaction rate through clear communication and rapid issue resolution.",
+            "Achieved a 98% first-call resolution rate by quickly diagnosing technical problems and guiding users through effective solutions, minimizing repeat inquiries.",
+            "Applied ITIL best practices to streamline support workflows, optimize ticket management, and improve service delivery — leading to a 15% increase in customer retention.",
+            "Resolved incoming ServiceNow tickets in under 60 seconds on average, ensuring prompt turnaround times and enhancing user experience across departments."
+          ]
+          ,
+          hashtags: [
+            "Tech Support",
+            "ServiceNow",
+            "ITIL",
+            "Customer Success",
+            "Problem Solving",
+            "Helpdesk"
+          ]
+    }
+    
 ]
 
 // --- 💻 Work Section ---
 const works = [
     {
-        projectName: "EdTech AI Tool",
-        yearCompleted: "2024",
-        description: "Developed an educational tool in collaboration with a peer, to rethink the college student and AI interaction. With a core principle to enhance learning and personal growth. Responsible for UI, UX, and DB management with ongoing goal to complete version 1.0 in December 2024.",
-        techStack: "Python, Vue.js",
+        projectName: "CoolMelbs",
+        yearCompleted: "2025",
+        description: "CoolMelbs is a climate-tech web app that addresses urban heat through interactive, eco-friendly tools. It helps users find local cooling solutions, get personalized plant suggestions, and engage with gamified sustainability features. Built with Vue.js, Firebase, and AWS, it integrates real-time data, image recognition, and a chatbot for an intuitive, user-first experience refined through Agile design sprints. Access Code: coolmelbs!!",
+        techStack: "Node.js, Vue.js, AWS, Firebase, Cloudflare",
         links: [
-            // {
-            //     label: "",
-            //     type: "git",
-            //     url: "#"
-            // },
+            {
+                label: "",
+                type: "external",
+                url: "https://www.coolmelbs.me"
+            },
             // {
             //     label: "",
             //     type: "external",
             //     url: "#"
             // }
         ],
-        imageLink: "images/version_edtech_pic.png",
+        imageLink: "images/coolmelbs.png",
         alignLeft: false
     },
     {
-        projectName: "Open-Source Developer Portfolio",
-        yearCompleted: "2023",
-        description: "Designed and developed an open-sourced single page application template to help web developers create visually appealing personal portfolios, focusing on ease of use and customization. Built with Vue.js, JS, HTML, Tailwind CSS, the project achieved 27 stars and 14 forks on GitHub.",
-        techStack: "Vue.js, JS, HTML, Tailwind.css",
+        projectName: "UV Defense Hub",
+        yearCompleted: "2025",
+        description: "UV Defense Hub is a smart web app that delivers personalized sun protection advice using real-time UV data and user inputs. It features Gemini API–powered skincare and clothing tips, secure access via a Vue.js frontend, and automated reminders for sunscreen reapplication. Deployed on AWS with EC2 and RDS, the platform also supports insights into Australian skin cancer trends.",
+        techStack: "Vue.js, Node.js, HTML, Tailwind.css, Cloudflare, AWS, Firebase",
         links: [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/webdev_portfolio"
+                url: "https://github.com/tung531119/5120_IE"
             },
-            {
-                label: "",
-                type: "external",
-                url: "https://feifykike.github.io/webdev_portfolio"
-            }
+            // {
+            //     label: "",
+            //     type: "external",
+            //     url: "https://feifykike.github.io/webdev_portfolio"
+            // }
         ],
-        imageLink: "images/webdevportfolio_pic.png",
+        imageLink: "images/uvdefense.png",
         alignLeft: true
     },
     {
-        projectName: "TrackYourSubs IOS App",
-        yearCompleted: "2022",
-        description: "An IOS app to track you subscriptions and expenses, all the while presenting in a clean and professional look with a load of features. Some of the more evident features are: Budgeting (monthly / yearly option available), Current monthly & yearly total expense at a glance, Custom suggestions to meet budget, Organize (Categorization & Importance) and filter through subscriptions, Reminders via scheduled notifications, Stats page: pie chart visual, bar chart visual, and streak indicator.",
-        techStack: "Swift, SwiftUI",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://youtu.be/KsTx-F70OOk"
-            }
-        ],
-        imageLink: "images/tracksubs_pic.png",
+        projectName: "AWS Powered Serverless Image Detection and Storage System ",
+        yearCompleted: "2024",
+        description: "A serverless image management platform that allows users to securely upload, tag, and retrieve images. Built with React and AWS services like DynamoDB, it offers fast, efficient querying and a seamless, authenticated user experience.",
+        techStack: "React.js, AWS Dynamo DB, AWS Lambda, AWS S3",
+        // links: [
+        //     {
+        //         label: "",
+        //         type: "git",
+        //         url: "https://github.com/feifyKike/TrackYourSubsDemo/"
+        //     },
+        //     {
+        //         label: "",
+        //         type: "external",
+        //         url: "https://youtu.be/KsTx-F70OOk"
+        //     }
+        // ],
+        imageLink: "images/image copy 2.png",
         alignLeft: false
     },
     {
-        projectName: "Personal Portfolio App",
-        yearCompleted: "2021",
-        description: "Built a dynamic, live-editable personal portfolio website with an admin dashboard for real-time updates. Developed using Django (Python) for the backend, and HTML, CSS, and JavaScript for the frontend, following the MVC architecture, which enhanced my full-stack development skills.",
-        techStack: "Django, Python, HTML, CSS, Bootstrap4, JS",
-        links: [
-            {
-                label: "",
-                type: "external",
-                url: "https://site--maximshelepov--6tkhqqjrq9c5.code.run"
-            }
-        ],
-        imageLink: "images/portfolio_pic.png",
+        projectName: "Penguin Paw Patrol",
+        yearCompleted: "2024",
+        description: "Paw Patrol for Penguins is a Java-based simulation that models the ecological behavior of Philip Island’s penguin colony. Built using advanced object-oriented programming, the project demonstrated strong technical accuracy and was recognized for both performance and clear communication.",
+        techStack: "Python, OOPS",
+        // links: [
+        //     {
+        //         label: "",
+        //         type: "external",
+        //         url: "https://site--maximshelepov--6tkhqqjrq9c5.code.run"
+        //     }
+        // ],
+        imageLink: "images/image copy 3.png",
         alignLeft: true
     },
     // {
@@ -250,10 +286,10 @@ const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Actively seeking full-time software development positions as a May 2025 graduate.",
+            "Actively seeking full-time Front - End Developer role.",
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "mimaishel@gmail.com", // email takes precedance
+            email: "koteswarandhivya@gmail.com", // email takes precedance
             other: "https://forms.gle/W3MswTKsPWMxEbn58"
         },
         responseTimeMessage: ""

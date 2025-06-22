@@ -8,9 +8,9 @@
 			<div class="flex flex-col md:grid md:grid-cols-6 min-h-full">
 				<div class="col-span-1 flex-initial relative mx-auto md:mx-0 order-2 md:order-none">
 					<ul class="md:fixed md:bottom-0 mb-7 flex items-center space-x-8 md:flex-col md:space-y-4 md:space-x-0">
-						<li v-show="githubLink" :class="['transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
-							<a :href="githubLink" target="_blank">
-								<font-awesome-icon icon="fa-brands fa-github" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
+						<li v-show="instagramLink" :class="['transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
+							<a :href="instagramLink" target="_blank">
+								<font-awesome-icon icon="fa-brands fa-instagram" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
 							</a>
 						</li>
 						<li v-show="linkedinLink" :class="['transition-all motion-reduce:transition-none duration-500 delay-[100ms]', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
@@ -18,8 +18,7 @@
 								<font-awesome-icon icon="fa-brands fa-linkedin" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
 							</a>
 						</li>
-						<li v-show="mediumLink" :class="['transition-all motion-reduce:transition-none duration-500 delay-[150ms]', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
-							<a :href="mediumLink" target="_blank">
+						<!-- <li v-show="mediumLink" :class="['transition-all motion-reduce:transition-none duration-500 delay-[150ms]', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
 								<font-awesome-icon icon="fa-brands fa-medium" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
 							</a>
 						</li>
@@ -32,7 +31,8 @@
 							<a :href="xTwitterLink" target="_blank">
 								<font-awesome-icon icon="fa-brands fa-x-twitter" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
 							</a>
-						</li>
+						</li>		<a :href="mediumLink" target="_blank">
+					 -->
 					</ul>
 				</div>
 				<div class="col-span-4 flex-1 flex-col order-1 md:order-none">
@@ -48,8 +48,8 @@
 						<ContactView :content="portfolio.contact" :transitions="portfolio.transitions" />
 
 						<footer class="hidden text-center md:block mb-5">
-							<p>🚀 Designed & Created by <a href="https://github.com/feifyKike" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
-							<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+							<!-- <p>🚀 Designed & Created by <a href="https://github.com/feifyKike" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
+							<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a> -->
 						</footer>
 					</div>
 				</div>
@@ -92,7 +92,7 @@ onMounted(() => {
 })
 
 // Social Media Links
-const githubLink = portfolio.socialMediaLinks.github
+const instagramLink = portfolio.socialMediaLinks.instagram
 const linkedinLink = portfolio.socialMediaLinks.linkedin
 const mediumLink = portfolio.socialMediaLinks.medium
 const stackoverflowLink = portfolio.socialMediaLinks.stackoverflow
