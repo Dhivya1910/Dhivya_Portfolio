@@ -102,15 +102,15 @@ const experiences = [
           ]
           ,
           hashtags: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap",
-            "WordPress",
+            "AzureAD",
+            "Microsoft365S",
+            "Intune",
+            "ActiveDirectory",
+            "ServiceNow",
             "SharePoint",
-            "C#",
-            ".NET",
-            "SQL Server"
+            "PrinterSupport",
+            "Cisco",
+            "SCCM (System Center Configuration Manager)"
           ]
     }
 ,
