@@ -87,17 +87,18 @@ const experiences = [
         ]
     },
     {
-        position: "Front - End Developer (Volunteer)",
+        position: "IT Support Desk (Volunteer)",
         company: {
             name: "The Salvation Army - Melbourne,VIC",
             link: "https://www.salvationarmy.org.au/locations/victoria/tthb/territorial-headquarters-blackburn/"
         },
         duration: "November 2024 - February 2025",
         bulletPoints: [
-            "Developed responsive and accessible front-end pages using HTML, CSS, JavaScript, and Bootstrap, significantly improving mobile usability by 40% across key pages.",
-            "Maintained and updated the organization’s WordPress site, ensuring stable performance and uptime for over 10,000 monthly visitors, including blog, events, and resource sections.",
-            "Integrated custom front-end components with internal SharePoint document libraries, reducing average document retrieval time by 30% through improved UX and direct linking.",
-            "Contributed to backend feature enhancements and data handling using C#/.NET and SQL Server, helping maintain internal systems used daily by more than 100 staff members."
+           "Provided Level 1 & 2 support for hardware, software, network, VPN/Wi-Fi, and printers, ensuring SLA compliance.",
+           "Supported Microsoft 365 (Outlook, Teams, OneDrive, SharePoint), Intune/SCCM deployments, and Azure AD (accounts, MFA, groups).",
+           "Maintained Cisco routers, switches, and firewalls; monitored network traffic and resolved outages.",
+           "Delivered remote support via ServiceNow and TeamViewer; handled password resets, device setups, and onboarding/offboarding.",
+           "Authored Knowledge Base articles and trained end-users on IT best practices."
           ]
           ,
           hashtags: [
