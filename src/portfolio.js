@@ -43,11 +43,11 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Dhivya Koteswaran and I recently completed my Master of Information Technology at Monash University in Melbourne. I have a strong passion for front-end development and love building responsive, accessible, and high-performance web applications. During my studies and beyond, I’ve worked on full-stack projects using Vue.js, Firebase, and AWS, including climate-tech (www.coolmelbs.me | Access Code: Coolmelbs!!) and accessibility platforms aimed at real-world social impact. I’ve developed tools that integrate real-time APIs, cloud functions, and clean UI/UX design — some of which achieved 90%+ Lighthouse performance scores.",
-        
-        "At The Salvation Army, I volunteered as a front-end developer — building responsive pages with HTML, CSS, JavaScript, and Bootstrap, improving mobile usability by 40%.",
-        
-        "When I’m not coding, you’ll find me exploring new dev tools, refining UI designs, or looking for opportunities that align with my front-end skillset — especially roles where I can create meaningful, user-centered digital experiences."
+        "My name is Dhivya Koteswaran, and I graduated with a Master of Information Technology from Monash University in September 2025. I am passionate about front-end development and building responsive, accessible, and high-performance web applications. I have developed full-stack projects using Vue.js, React.js, Node.js, and AWS, including climate-tech and accessibility platforms like CoolMelbs and WheelMelb, focused on creating real-world social impact. My work involves integrating real-time APIs, cloud services, and intuitive UI/UX design to deliver scalable and user-centered solutions. :contentReference[oaicite:0]{index=0}",
+      
+        "I am currently working in IT Support at The Salvation Army, where I provide Level 1 and Level 2 technical support across hardware, software, and network systems. I work with technologies such as Azure AD, Microsoft 365, Intune, and ServiceNow, supporting users, managing devices, and contributing to knowledge base documentation while ensuring reliable IT operations. :contentReference[oaicite:1]{index=1}",
+      
+        "Outside of work, I enjoy exploring new technologies, refining UI designs, and building meaningful digital solutions. I am actively seeking opportunities in front-end or full-stack development where I can create impactful, user-centered digital experiences."
       ],
        // Separated items are paragraphs
     techStack: [
@@ -65,34 +65,14 @@ const about = {
 
 // --- 🛡️ Experience Section ---
 const experiences = [
+    
     {
-        position: "Consumer Consultant",
-        company: {
-            name: "Commercial Credit Services - Melbourne,VIC",
-            link: "https://www.commercialcredit.com.au/"
-        },
-        duration: "September 2024 - Present",
-        bulletPoints: [
-            "Managed and maintained client data through CRM systems, ensuring real-time accuracy and strong data integrity across platforms.",
-"Boosted operational efficiency to 94.66% by designing actionable dashboards and fine-tuning internal workflows.",
-"Implemented and optimized automated dialer systems, reducing the call drop rate to 3.57%.",
-"Leveraged data-driven strategies to consistently meet SLA targets — 26.67% promise resolution and 30.33% hardship case closure."],
-        hashtags: [
-            "CRM System Administration",
-            "Business Process Optimization",
-            "Customer service",
-            "Communication",
-            "Data Quality & Integrity Assurance",
-            "Tech-Enabled Customer Support Tools"
-        ]
-    },
-    {
-        position: "IT Support Desk (Volunteer)",
+        position: "IT Support Analyst",
         company: {
             name: "The Salvation Army - Melbourne,VIC",
             link: "https://www.salvationarmy.org.au/locations/victoria/tthb/territorial-headquarters-blackburn/"
         },
-        duration: "November 2024 - February 2025",
+        duration: "June 2025 - Present",
         bulletPoints: [
            "Provided Level 1 & 2 support for hardware, software, network, VPN/Wi-Fi, and printers, ensuring SLA compliance.",
            "Supported Microsoft 365 (Outlook, Teams, OneDrive, SharePoint), Intune/SCCM deployments, and Azure AD (accounts, MFA, groups).",
@@ -215,6 +195,21 @@ const works = [
         //     }
         // ],
         imageLink: "images/image copy 3.png",
+        alignLeft: true
+    },
+    {
+        projectName: "WheelMelb/WheelSyd",
+        yearCompleted: "2025",
+        description: "Engineered a full-stack accessibility navigation system leveraging Vue.js, Node.js, and REST APIs, integrating public transport, geospatial routing, and real-time data for dynamic, distance-aware user experiences",
+        techStack: "Vue.js, Node.js, REST APIs, MapLibre GL, Geoapify, PTV API, Geospatial Visualization, JavaScript, HTML5, CSS3",
+        links: [
+            {
+                label: "",
+                type: "external",
+                url: "https://wheelmelb.me/"
+            }
+        ],
+        imageLink: "images/wheelchair.png",
         alignLeft: true
     },
     // {
