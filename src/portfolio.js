@@ -24,7 +24,7 @@ const greeting = {
     name: "Dhivya Koteswaran",
     message: "I'm a front-end developer with hands-on experience building responsive web apps using Vue.js, Firebase, and AWS. I’ve worked on climate-tech and accessibility-focused platforms, combining clean UI design with real-time data. With a strong eye for performance and accessibility, I enjoy turning complex ideas into simple, intuitive interfaces that work seamlessly across devices.",
     basedLocation: "Melbourne, VIC",
-    resumeLink: "https://drive.google.com/file/d/1mNZyOAWCVqyPajfhIg6mHyrun41ooZe0/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/1AhFmtgauE10McQ45iOnD1F9fDI0Bw5t5/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -142,6 +142,22 @@ const works = [
         imageLink: "images/coolmelbs.png",
         alignLeft: false
     },
+
+    {
+        projectName: "WheelMelb/WheelSyd",
+        yearCompleted: "2025",
+        description: "Engineered a full-stack accessibility navigation system leveraging Vue.js, Node.js, and REST APIs, integrating public transport, geospatial routing, and real-time data for dynamic, distance-aware user experiences",
+        techStack: "Vue.js, Node.js, REST APIs, MapLibre GL, Geoapify, PTV API, Geospatial Visualization, JavaScript, HTML5, CSS3",
+        links: [
+            {
+                label: "",
+                type: "external",
+                url: "https://wheelmelb.me/"
+            }
+        ],
+        imageLink: "images/wheelchair.png",
+        alignLeft: true
+    },
     {
         projectName: "UV Defense Hub",
         yearCompleted: "2025",
@@ -160,7 +176,7 @@ const works = [
             // }
         ],
         imageLink: "images/uvdefense.png",
-        alignLeft: true
+        alignLeft: false
     },
     {
         projectName: "AWS Powered Serverless Image Detection and Storage System ",
@@ -180,7 +196,7 @@ const works = [
         //     }
         // ],
         imageLink: "images/image copy 2.png",
-        alignLeft: false
+        alignLeft: true
     },
     {
         projectName: "Penguin Paw Patrol",
@@ -195,23 +211,9 @@ const works = [
         //     }
         // ],
         imageLink: "images/image copy 3.png",
-        alignLeft: true
+        alignLeft: false
     },
-    {
-        projectName: "WheelMelb/WheelSyd",
-        yearCompleted: "2025",
-        description: "Engineered a full-stack accessibility navigation system leveraging Vue.js, Node.js, and REST APIs, integrating public transport, geospatial routing, and real-time data for dynamic, distance-aware user experiences",
-        techStack: "Vue.js, Node.js, REST APIs, MapLibre GL, Geoapify, PTV API, Geospatial Visualization, JavaScript, HTML5, CSS3",
-        links: [
-            {
-                label: "",
-                type: "external",
-                url: "https://wheelmelb.me/"
-            }
-        ],
-        imageLink: "images/wheelchair.png",
-        alignLeft: true
-    },
+
     // {
     //     projectName: "Sudoku Game & Solver",
     //     yearCompleted: "2021",
